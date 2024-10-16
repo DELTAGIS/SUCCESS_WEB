@@ -10,9 +10,9 @@ import { RouterOutlet } from '@angular/router';
 import {
     FuseNavigationItem,
     FuseVerticalNavigationComponent,
-} from '@fuse/components/navigation';
-import { FuseScrollResetDirective } from '@fuse/directives/scroll-reset';
-import { FuseMediaWatcherService } from '@fuse/services/media-watcher';
+} from '@deltagis/components/navigation';
+import { FuseScrollResetDirective } from '@deltagis/directives/scroll-reset';
+import { FuseMediaWatcherService } from '@deltagis/services/media-watcher';
 import { Subject, takeUntil } from 'rxjs';
 
 @Component({

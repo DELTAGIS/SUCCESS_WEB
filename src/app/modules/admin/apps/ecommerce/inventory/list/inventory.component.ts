@@ -36,8 +36,8 @@ import { MatProgressBarModule } from '@angular/material/progress-bar';
 import { MatSelectModule } from '@angular/material/select';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { MatSort, MatSortModule } from '@angular/material/sort';
-import { fuseAnimations } from '@fuse/animations';
-import { FuseConfirmationService } from '@fuse/services/confirmation';
+import { fuseAnimations } from '@deltagis/animations';
+import { FuseConfirmationService } from '@deltagis/services/confirmation';
 import { InventoryService } from 'app/modules/admin/apps/ecommerce/inventory/inventory.service';
 import {
     InventoryBrand,

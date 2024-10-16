@@ -46,7 +46,7 @@ export class ChangelogComponent {
                     list: [
                         '(Dependencies) Updated Angular & Angular Material',
                         '(Dependencies) Updated various other dependencies',
-                        '(@fuse/fullscreen) Updated the fullscreen component to use the new Fullscreen API',
+                        '(@deltagis/fullscreen) Updated the fullscreen component to use the new Fullscreen API',
                     ],
                 },
                 {
@@ -156,7 +156,7 @@ export class ChangelogComponent {
                 {
                     type: 'Fixed',
                     list: [
-                        '(@fuse/confirmation-dialog) Fixed: Extra padding on the confirmation dialogs',
+                        '(@deltagis/confirmation-dialog) Fixed: Extra padding on the confirmation dialogs',
                     ],
                 },
             ],
@@ -235,7 +235,7 @@ export class ChangelogComponent {
                 {
                     type: 'Fixed',
                     list: [
-                        '(@fuse/tailwind/plugins/theming) Simplified the plugin and added more detailed comments',
+                        '(@deltagis/tailwind/plugins/theming) Simplified the plugin and added more detailed comments',
                         '(tailwind.config) Fixed: typo on comment',
                         '(tailwind) Removed the "aspect-ratio" plugin in favor of the included "aspect" utility',
                         '(layout/common/messages) Fixed: Wrong color classes on "No Messages" icon',
@@ -264,7 +264,7 @@ export class ChangelogComponent {
                 {
                     type: 'Fixed',
                     list: [
-                        '(@fuse/overrides/angular-material) mat-hint position is not working correctly on fields',
+                        '(@deltagis/overrides/angular-material) mat-hint position is not working correctly on fields',
                     ],
                 },
             ],
@@ -277,9 +277,9 @@ export class ChangelogComponent {
                 {
                     type: 'Added',
                     list: [
-                        '(@fuse/navigation) Added "fragment" and "queryParams" support along with "preserveFragment" and "queryParamsHandling" on navigation items',
-                        '(@fuse/overrides/quill) Added tooltip styles for better compatibility',
-                        '(@fuse/services/platform) Added platform checker service',
+                        '(@deltagis/navigation) Added "fragment" and "queryParams" support along with "preserveFragment" and "queryParamsHandling" on navigation items',
+                        '(@deltagis/overrides/quill) Added tooltip styles for better compatibility',
+                        '(@deltagis/services/platform) Added platform checker service',
                         '(global) Added custom scrollbar styling for platforms other than macOS and iOS',
                         '(layout/common/search) Implemented the new MatAutocomplete "autoSelectActiveOption" functionality',
                     ],
@@ -294,7 +294,7 @@ export class ChangelogComponent {
                         '(global) BREAKING: Replaced iconsmind icons with heroicons and removed the iconsmind because of the bundle size concerns',
                         '(global) Replaced "FormBuilder" and "FormGroup" types with "UntypedFormBuilder" and "UntypedFormGroup"',
                         '(FuseDrawer) Updated the overlay and animation handling code for better stability',
-                        '(@fuse/overrides/quill) Better scrolling for Quill editor',
+                        '(@deltagis/overrides/quill) Better scrolling for Quill editor',
                         '(auth) Made the renewing token on "sign-in-with-token" process an optional step to simplify the login process',
                         '(auth) Changed the url on "signInUsingToken" method to reflect the mock-api changes',
                         '(mock-api) Replaced the "refresh-access-token" url with "sign-in-with-token"',
@@ -303,8 +303,8 @@ export class ChangelogComponent {
                 {
                     type: 'Fixed',
                     list: [
-                        '(@fuse/navigation) Collapse animation doesn"t work smoothly because of the parent"s margin',
-                        '(@fuse/service/confirmation) Cleaned-up the dialog component',
+                        '(@deltagis/navigation) Collapse animation doesn"t work smoothly because of the parent"s margin',
+                        '(@deltagis/service/confirmation) Cleaned-up the dialog component',
                         '(layout) The theme settings cog is not positioned correctly in Empty layout',
                         '(auth/sign-up) Missing ngForm reference',
                         '(apps/academy) Ring outside the current step"s number is not visible',
@@ -328,9 +328,9 @@ export class ChangelogComponent {
                     list: [
                         '(dependencies) Updated various packages',
                         '(AngularCLI) Re-enabled the cache since Tailwind related issues are fixed',
-                        '(@fuse/navigation) Expose the width variables as css custom properties, so they can be overridden from the outside',
-                        '(@fuse/drawer) Expose the width variable as a css custom property, so it can be overridden from the outside',
-                        '(@fuse/masonry) Removed the unnecessary scss file',
+                        '(@deltagis/navigation) Expose the width variables as css custom properties, so they can be overridden from the outside',
+                        '(@deltagis/drawer) Expose the width variable as a css custom property, so it can be overridden from the outside',
+                        '(@deltagis/masonry) Removed the unnecessary scss file',
                     ],
                 },
                 {
@@ -402,8 +402,8 @@ export class ChangelogComponent {
                 {
                     type: 'Fixed',
                     list: [
-                        '(@fuse/overrides/angular-material) Fixed: Normal border color of the text field overrides the invalid and focus border colors on dark themes',
-                        "(@fuse/navigation) Don't need to use interpolation on scss variables anymore since Tailwind doesn't cause any problems with them anymore",
+                        '(@deltagis/overrides/angular-material) Fixed: Normal border color of the text field overrides the invalid and focus border colors on dark themes',
+                        "(@deltagis/navigation) Don't need to use interpolation on scss variables anymore since Tailwind doesn't cause any problems with them anymore",
                     ],
                 },
             ],
@@ -452,7 +452,7 @@ export class ChangelogComponent {
                 {
                     type: 'Fixed',
                     list: [
-                        '(@fuse/drawer) Final opacity of the overlay is not permanent due to player being destroyed right after the animation',
+                        '(@deltagis/drawer) Final opacity of the overlay is not permanent due to player being destroyed right after the animation',
                     ],
                 },
             ],
@@ -469,8 +469,8 @@ export class ChangelogComponent {
                         '(dependencies) Updated Angular & Angular Material to v12.2.1',
                         '(dependencies) Updated various other packages',
                         '(tailwindcss) Removed old jsdoc from the config file',
-                        '(@fuse/theming) Better structuring on the themes.scss file',
-                        '(@fuse) Disabled Angular Material "theme" sanity check since we use "all-component-themes" without a color map',
+                        '(@deltagis/theming) Better structuring on the themes.scss file',
+                        '(@deltagis) Disabled Angular Material "theme" sanity check since we use "all-component-themes" without a color map',
                         '(apps/mailbox) Style improvements',
                         'Removed empty "styles" from component decorators',
                         'Decreased budget sizes since new Fuse is a lot smaller compared to the one with the old design',
@@ -479,8 +479,8 @@ export class ChangelogComponent {
                 {
                     type: 'Fixed',
                     list: [
-                        '(@fuse/overrides) Quill editor is not styled correctly by default',
-                        '(@fuse/confirmation) Dialog size cannot be updated using dialogRef\'s "updateSize" method',
+                        '(@deltagis/overrides) Quill editor is not styled correctly by default',
+                        '(@deltagis/confirmation) Dialog size cannot be updated using dialogRef\'s "updateSize" method',
                         "(apps/mailbox) Compose dialog doesn't work correctly on small height resolutions",
                         '(ui/page-layouts) Demo layout navigation appearance is not correct',
                     ],

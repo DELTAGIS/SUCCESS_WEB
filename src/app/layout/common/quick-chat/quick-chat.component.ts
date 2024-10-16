@@ -19,7 +19,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatIconModule } from '@angular/material/icon';
 import { MatInputModule } from '@angular/material/input';
-import { FuseScrollbarDirective } from '@fuse/directives/scrollbar';
+import { FuseScrollbarDirective } from '@deltagis/directives/scrollbar';
 import { QuickChatService } from 'app/layout/common/quick-chat/quick-chat.service';
 import { Chat } from 'app/layout/common/quick-chat/quick-chat.types';
 import { Subject, takeUntil } from 'rxjs';

@@ -34,8 +34,8 @@ import { MatSelectModule } from '@angular/material/select';
 import { MatDrawerToggleResult } from '@angular/material/sidenav';
 import { MatTooltipModule } from '@angular/material/tooltip';
 import { ActivatedRoute, Router, RouterLink } from '@angular/router';
-import { FuseFindByKeyPipe } from '@fuse/pipes/find-by-key/find-by-key.pipe';
-import { FuseConfirmationService } from '@fuse/services/confirmation';
+import { FuseFindByKeyPipe } from '@deltagis/pipes/find-by-key/find-by-key.pipe';
+import { FuseConfirmationService } from '@deltagis/services/confirmation';
 import { ContactsService } from 'app/modules/admin/apps/contacts/contacts.service';
 import {
     Contact,

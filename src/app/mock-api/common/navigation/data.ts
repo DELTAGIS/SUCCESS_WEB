@@ -1,5 +1,5 @@
 /* eslint-disable */
-import { FuseNavigationItem } from '@fuse/components/navigation';
+import { FuseNavigationItem } from '@deltagis/components/navigation';
 
 export const defaultNavigation: FuseNavigationItem[] = [
     {

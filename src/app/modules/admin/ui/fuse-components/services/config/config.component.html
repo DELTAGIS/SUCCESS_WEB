@@ -54,7 +54,7 @@
 
         <h2>Module</h2>
         <textarea fuse-highlight lang="typescript">
-            import { FuseConfigModule } from '@fuse/services/config';
+            import { FuseConfigModule } from '@deltagis/services/config';
         </textarea>
 
         <h2>Default configuration</h2>
@@ -118,7 +118,7 @@
             on the configuration, it will be added:
         </p>
         <textarea fuse-highlight lang="typescript">
-            import { FuseConfigService } from '@fuse/services/config';
+            import { FuseConfigService } from '@deltagis/services/config';
 
             private _fuseConfigService = inject(FuseConfigService);
 
@@ -136,7 +136,7 @@
             <code>Observable</code> of the configuration object:
         </p>
         <textarea fuse-highlight lang="typescript">
-            import { FuseConfigService } from '@fuse/services/config';
+            import { FuseConfigService } from '@deltagis/services/config';
             import { AppConfig } from 'app/core/config/app.config';
 
             private _fuseConfigService = inject(FuseConfigService);

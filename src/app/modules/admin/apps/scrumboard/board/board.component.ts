@@ -22,7 +22,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { MatMenuModule } from '@angular/material/menu';
 import { RouterLink, RouterOutlet } from '@angular/router';
-import { FuseConfirmationService } from '@fuse/services/confirmation';
+import { FuseConfirmationService } from '@deltagis/services/confirmation';
 import {
     Board,
     Card,

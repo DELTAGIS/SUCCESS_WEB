@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
-import { FuseCardComponent } from '@fuse/components/card';
+import { FuseCardComponent } from '@deltagis/components/card';
 
 @Component({
     selector: 'pricing-modern',

@@ -9,7 +9,7 @@ import {
     withInMemoryScrolling,
     withPreloading,
 } from '@angular/router';
-import { provideFuse } from '@fuse';
+import { provideFuse } from '@deltagis';
 import { TranslocoService, provideTransloco } from '@ngneat/transloco';
 import { appRoutes } from 'app/app.routes';
 import { provideAuth } from 'app/core/auth/auth.provider';

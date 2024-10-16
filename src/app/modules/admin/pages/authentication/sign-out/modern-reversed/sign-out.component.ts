@@ -1,7 +1,7 @@
 import { I18nPluralPipe } from '@angular/common';
 import { Component, ViewEncapsulation } from '@angular/core';
 import { Router, RouterLink } from '@angular/router';
-import { fuseAnimations } from '@fuse/animations';
+import { fuseAnimations } from '@deltagis/animations';
 import { AuthService } from 'app/core/auth/auth.service';
 
 @Component({

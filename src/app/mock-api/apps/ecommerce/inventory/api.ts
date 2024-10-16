@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { FuseMockApiService, FuseMockApiUtils } from '@fuse/lib/mock-api';
+import { FuseMockApiService, FuseMockApiUtils } from '@deltagis/lib/mock-api';
 import {
     brands as brandsData,
     categories as categoriesData,

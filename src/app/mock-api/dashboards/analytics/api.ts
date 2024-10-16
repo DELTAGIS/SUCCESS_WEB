@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { FuseMockApiService } from '@fuse/lib/mock-api';
+import { FuseMockApiService } from '@deltagis/lib/mock-api';
 import { analytics as analyticsData } from 'app/mock-api/dashboards/analytics/data';
 import { cloneDeep } from 'lodash-es';
 

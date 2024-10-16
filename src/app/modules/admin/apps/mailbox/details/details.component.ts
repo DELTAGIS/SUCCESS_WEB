@@ -25,8 +25,8 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatInputModule } from '@angular/material/input';
 import { MatMenuModule } from '@angular/material/menu';
 import { ActivatedRoute, Router, RouterLink } from '@angular/router';
-import { FuseScrollResetDirective } from '@fuse/directives/scroll-reset';
-import { FuseFindByKeyPipe } from '@fuse/pipes/find-by-key/find-by-key.pipe';
+import { FuseScrollResetDirective } from '@deltagis/directives/scroll-reset';
+import { FuseFindByKeyPipe } from '@deltagis/pipes/find-by-key/find-by-key.pipe';
 import { labelColorDefs } from 'app/modules/admin/apps/mailbox/mailbox.constants';
 import { MailboxService } from 'app/modules/admin/apps/mailbox/mailbox.service';
 import {

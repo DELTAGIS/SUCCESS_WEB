@@ -18,7 +18,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatInputModule } from '@angular/material/input';
 import { MatRadioModule } from '@angular/material/radio';
 import { MatSelectModule } from '@angular/material/select';
-import { FuseAlertComponent } from '@fuse/components/alert';
+import { FuseAlertComponent } from '@deltagis/components/alert';
 
 @Component({
     selector: 'settings-plan-billing',

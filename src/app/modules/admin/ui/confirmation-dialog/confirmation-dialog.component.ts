@@ -18,8 +18,8 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { MatSelectModule } from '@angular/material/select';
 import { RouterLink } from '@angular/router';
-import { FuseHighlightComponent } from '@fuse/components/highlight';
-import { FuseConfirmationService } from '@fuse/services/confirmation';
+import { FuseHighlightComponent } from '@deltagis/components/highlight';
+import { FuseConfirmationService } from '@deltagis/services/confirmation';
 
 @Component({
     selector: 'confirmation',
