@@ -12,7 +12,7 @@ import { MatMenuModule } from '@angular/material/menu';
 import {
     FuseNavigationService,
     FuseVerticalNavigationComponent,
-} from '@fuse/components/navigation';
+} from '@deltagis/components/navigation';
 import { AvailableLangs, TranslocoService } from '@ngneat/transloco';
 import { take } from 'rxjs';
 

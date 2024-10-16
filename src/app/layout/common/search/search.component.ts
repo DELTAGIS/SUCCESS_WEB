@@ -33,7 +33,7 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatIconModule } from '@angular/material/icon';
 import { MatInputModule } from '@angular/material/input';
 import { RouterLink } from '@angular/router';
-import { fuseAnimations } from '@fuse/animations/public-api';
+import { fuseAnimations } from '@deltagis/animations/public-api';
 import { Subject, debounceTime, filter, map, takeUntil } from 'rxjs';
 
 @Component({

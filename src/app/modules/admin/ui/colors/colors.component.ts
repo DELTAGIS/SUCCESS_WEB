@@ -1,6 +1,6 @@
 import { Component, ViewEncapsulation } from '@angular/core';
 import { MatRippleModule } from '@angular/material/core';
-import { fuseAnimations } from '@fuse/animations';
+import { fuseAnimations } from '@deltagis/animations';
 
 @Component({
     selector: 'colors',

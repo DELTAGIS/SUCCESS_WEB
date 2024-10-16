@@ -2,8 +2,8 @@ import { Injectable } from '@angular/core';
 import {
     FuseNavigationItem,
     FuseNavigationService,
-} from '@fuse/components/navigation';
-import { FuseMockApiService } from '@fuse/lib/mock-api';
+} from '@deltagis/components/navigation';
+import { FuseMockApiService } from '@deltagis/lib/mock-api';
 import { contacts } from 'app/mock-api/apps/contacts/data';
 import { tasks } from 'app/mock-api/apps/tasks/data';
 import { defaultNavigation } from 'app/mock-api/common/navigation/data';

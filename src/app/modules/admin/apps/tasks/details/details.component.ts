@@ -38,8 +38,8 @@ import {
     Router,
     RouterLink,
 } from '@angular/router';
-import { FuseFindByKeyPipe } from '@fuse/pipes/find-by-key/find-by-key.pipe';
-import { FuseConfirmationService } from '@fuse/services/confirmation';
+import { FuseFindByKeyPipe } from '@deltagis/pipes/find-by-key/find-by-key.pipe';
+import { FuseConfirmationService } from '@deltagis/services/confirmation';
 import { TasksListComponent } from 'app/modules/admin/apps/tasks/list/list.component';
 import { TasksService } from 'app/modules/admin/apps/tasks/tasks.service';
 import { Tag, Task } from 'app/modules/admin/apps/tasks/tasks.types';

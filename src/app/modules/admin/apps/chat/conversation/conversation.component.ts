@@ -19,7 +19,7 @@ import { MatInputModule } from '@angular/material/input';
 import { MatMenuModule } from '@angular/material/menu';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { RouterLink } from '@angular/router';
-import { FuseMediaWatcherService } from '@fuse/services/media-watcher';
+import { FuseMediaWatcherService } from '@deltagis/services/media-watcher';
 import { ChatService } from 'app/modules/admin/apps/chat/chat.service';
 import { Chat } from 'app/modules/admin/apps/chat/chat.types';
 import { ContactInfoComponent } from 'app/modules/admin/apps/chat/contact-info/contact-info.component';

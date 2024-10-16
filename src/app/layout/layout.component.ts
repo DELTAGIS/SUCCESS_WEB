@@ -8,10 +8,10 @@ import {
     ViewEncapsulation,
 } from '@angular/core';
 import { ActivatedRoute, NavigationEnd, Router } from '@angular/router';
-import { FuseConfig, FuseConfigService } from '@fuse/services/config';
-import { FuseMediaWatcherService } from '@fuse/services/media-watcher';
-import { FusePlatformService } from '@fuse/services/platform';
-import { FUSE_VERSION } from '@fuse/version';
+import { FuseConfig, FuseConfigService } from '@deltagis/services/config';
+import { FuseMediaWatcherService } from '@deltagis/services/media-watcher';
+import { FusePlatformService } from '@deltagis/services/platform';
+import { FUSE_VERSION } from '@deltagis/version';
 import { Subject, combineLatest, filter, map, takeUntil } from 'rxjs';
 import { SettingsComponent } from './common/settings/settings.component';
 import { EmptyLayoutComponent } from './layouts/empty/empty.component';

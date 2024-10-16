@@ -14,8 +14,8 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatIconModule } from '@angular/material/icon';
 import { MatInputModule } from '@angular/material/input';
 import { RouterLink } from '@angular/router';
-import { fuseAnimations } from '@fuse/animations';
-import { FuseAlertComponent } from '@fuse/components/alert';
+import { fuseAnimations } from '@deltagis/animations';
+import { FuseAlertComponent } from '@deltagis/components/alert';
 import { HelpCenterService } from 'app/modules/admin/apps/help-center/help-center.service';
 
 @Component({

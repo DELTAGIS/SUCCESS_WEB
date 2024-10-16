@@ -6,7 +6,7 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatIconModule } from '@angular/material/icon';
 import { MatInputModule } from '@angular/material/input';
 import { MatSelectModule } from '@angular/material/select';
-import { FuseHighlightComponent } from '@fuse/components/highlight';
+import { FuseHighlightComponent } from '@deltagis/components/highlight';
 import { IconsService } from 'app/modules/admin/ui/icons/icons.service';
 import { Icon } from 'app/modules/admin/ui/icons/icons.types';
 import {

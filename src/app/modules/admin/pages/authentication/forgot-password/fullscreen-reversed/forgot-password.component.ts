@@ -11,8 +11,8 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { RouterLink } from '@angular/router';
-import { fuseAnimations } from '@fuse/animations';
-import { FuseAlertComponent, FuseAlertType } from '@fuse/components/alert';
+import { fuseAnimations } from '@deltagis/animations';
+import { FuseAlertComponent, FuseAlertType } from '@deltagis/components/alert';
 
 @Component({
     selector: 'forgot-password-fullscreen-reversed',

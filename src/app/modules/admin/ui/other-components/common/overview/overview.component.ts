@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
-import { FuseAlertComponent } from '@fuse/components/alert';
+import { FuseAlertComponent } from '@deltagis/components/alert';
 import { OtherComponentsComponent } from 'app/modules/admin/ui/other-components/other-components.component';
 
 @Component({

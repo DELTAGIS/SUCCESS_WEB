@@ -1,5 +1,5 @@
 /* eslint-disable */
-import { FuseNavigationItem } from '@fuse/components/navigation';
+import { FuseNavigationItem } from '@deltagis/components/navigation';
 
 export const defaultNavigation: FuseNavigationItem[] = [
     {
@@ -973,7 +973,7 @@ export const defaultNavigation: FuseNavigationItem[] = [
                 icon: 'heroicons_outline:megaphone',
                 link: '/docs/changelog',
                 badge: {
-                    title: '20.0.0',
+                    title: '1.0.0',
                     classes: 'px-2 bg-yellow-300 text-black rounded-full',
                 },
             },

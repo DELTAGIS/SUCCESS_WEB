@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { FuseMockApiService } from '@fuse/lib/mock-api/mock-api.service';
-import { FuseMockApiUtils } from '@fuse/lib/mock-api/mock-api.utils';
+import { FuseMockApiService } from '@deltagis/lib/mock-api/mock-api.service';
+import { FuseMockApiUtils } from '@deltagis/lib/mock-api/mock-api.utils';
 import {
     tags as tagsData,
     tasks as tasksData,

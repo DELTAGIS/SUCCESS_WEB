@@ -6,7 +6,7 @@ import {
     FuseNavigationItem,
     FuseNavigationService,
     FuseVerticalNavigationComponent,
-} from '@fuse/components/navigation';
+} from '@deltagis/components/navigation';
 import { MailboxComposeComponent } from 'app/modules/admin/apps/mailbox/compose/compose.component';
 import { labelColorDefs } from 'app/modules/admin/apps/mailbox/mailbox.constants';
 import { MailboxService } from 'app/modules/admin/apps/mailbox/mailbox.service';

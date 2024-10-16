@@ -11,7 +11,7 @@ import {
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { MatDrawer, MatSidenavModule } from '@angular/material/sidenav';
-import { FuseMediaWatcherService } from '@fuse/services/media-watcher';
+import { FuseMediaWatcherService } from '@deltagis/services/media-watcher';
 import { Subject, takeUntil } from 'rxjs';
 import { SettingsAccountComponent } from './account/account.component';
 import { SettingsNotificationsComponent } from './notifications/notifications.component';

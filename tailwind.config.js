@@ -2,7 +2,7 @@ const path = require('path');
 const colors = require('tailwindcss/colors');
 const defaultTheme = require('tailwindcss/defaultTheme');
 const generatePalette = require(
-    path.resolve(__dirname, 'src/@fuse/tailwind/utils/generate-palette')
+    path.resolve(__dirname, 'src/@deltagis/tailwind/utils/generate-palette')
 );
 
 /**
@@ -284,12 +284,12 @@ const config = {
     plugins: [
         // Fuse - Tailwind plugins
         require(
-            path.resolve(__dirname, 'src/@fuse/tailwind/plugins/utilities')
+            path.resolve(__dirname, 'src/@deltagis/tailwind/plugins/utilities')
         ),
         require(
-            path.resolve(__dirname, 'src/@fuse/tailwind/plugins/icon-size')
+            path.resolve(__dirname, 'src/@deltagis/tailwind/plugins/icon-size')
         ),
-        require(path.resolve(__dirname, 'src/@fuse/tailwind/plugins/theming'))({
+        require(path.resolve(__dirname, 'src/@deltagis/tailwind/plugins/theming'))({
             themes,
         }),
 

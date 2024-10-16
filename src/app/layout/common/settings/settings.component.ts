@@ -4,14 +4,14 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { MatTooltipModule } from '@angular/material/tooltip';
 import { Router } from '@angular/router';
-import { FuseDrawerComponent } from '@fuse/components/drawer';
+import { FuseDrawerComponent } from '@deltagis/components/drawer';
 import {
     FuseConfig,
     FuseConfigService,
     Scheme,
     Theme,
     Themes,
-} from '@fuse/services/config';
+} from '@deltagis/services/config';
 
 import { Subject, takeUntil } from 'rxjs';
 

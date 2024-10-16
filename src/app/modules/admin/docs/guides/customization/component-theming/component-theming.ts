@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
-import { FuseHighlightComponent } from '@fuse/components/highlight';
+import { FuseHighlightComponent } from '@deltagis/components/highlight';
 import { GuidesComponent } from 'app/modules/admin/docs/guides/guides.component';
 
 @Component({

@@ -1,8 +1,8 @@
 import { Component, ViewEncapsulation } from '@angular/core';
 import { MatIconModule } from '@angular/material/icon';
 import { MatProgressBarModule } from '@angular/material/progress-bar';
-import { FuseVerticalNavigationComponent } from '@fuse/components/navigation';
-import { FuseNavigationItem } from '@fuse/components/navigation/navigation.types';
+import { FuseVerticalNavigationComponent } from '@deltagis/components/navigation';
+import { FuseNavigationItem } from '@deltagis/components/navigation/navigation.types';
 
 @Component({
     selector: 'demo-sidebar',

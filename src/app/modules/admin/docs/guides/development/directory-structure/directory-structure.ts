@@ -9,7 +9,7 @@ import {
     MatTreeModule,
 } from '@angular/material/tree';
 import { RouterLink } from '@angular/router';
-import { FuseAlertComponent } from '@fuse/components/alert';
+import { FuseAlertComponent } from '@deltagis/components/alert';
 import { GuidesComponent } from 'app/modules/admin/docs/guides/guides.component';
 
 interface DirNode {
@@ -142,7 +142,7 @@ export class DirectoryStructureComponent implements OnInit {
                 name: 'src/',
                 children: [
                     {
-                        name: '@fuse/',
+                        name: '@deltagis/',
                         children: [
                             { name: 'animations/' },
                             { name: 'components/' },
