@@ -1,6 +1,6 @@
 import { Component, ViewEncapsulation } from '@angular/core';
 import { RouterLink } from '@angular/router';
-import { fuseAnimations } from '@fuse/animations';
+import { fuseAnimations } from '@deltagis/animations';
 
 @Component({
     selector: 'confirmation-required-modern',

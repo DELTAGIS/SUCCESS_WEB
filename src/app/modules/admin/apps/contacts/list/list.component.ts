@@ -25,7 +25,7 @@ import {
     RouterLink,
     RouterOutlet,
 } from '@angular/router';
-import { FuseMediaWatcherService } from '@fuse/services/media-watcher';
+import { FuseMediaWatcherService } from '@deltagis/services/media-watcher';
 import { ContactsService } from 'app/modules/admin/apps/contacts/contacts.service';
 import {
     Contact,

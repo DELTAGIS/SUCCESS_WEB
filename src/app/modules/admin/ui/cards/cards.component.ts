@@ -25,7 +25,7 @@ import { MatMenuModule } from '@angular/material/menu';
 import { MatProgressBarModule } from '@angular/material/progress-bar';
 import { MatTooltipModule } from '@angular/material/tooltip';
 import { RouterLink } from '@angular/router';
-import { FuseCardComponent } from '@fuse/components/card';
+import { FuseCardComponent } from '@deltagis/components/card';
 
 @Component({
     selector: 'cards',

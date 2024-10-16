@@ -1,4 +1,4 @@
-import { FuseNavigationItem } from '@fuse/components/navigation';
+import { FuseNavigationItem } from '@deltagis/components/navigation';
 
 export interface Navigation {
     compact: FuseNavigationItem[];

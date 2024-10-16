@@ -21,7 +21,7 @@ import {
 } from '@angular/material/slide-toggle';
 import { MatTooltipModule } from '@angular/material/tooltip';
 import { ActivatedRoute, Router, RouterLink } from '@angular/router';
-import { FuseFindByKeyPipe } from '@fuse/pipes/find-by-key/find-by-key.pipe';
+import { FuseFindByKeyPipe } from '@deltagis/pipes/find-by-key/find-by-key.pipe';
 import { AcademyService } from 'app/modules/admin/apps/academy/academy.service';
 import { Category, Course } from 'app/modules/admin/apps/academy/academy.types';
 import { BehaviorSubject, Subject, combineLatest, takeUntil } from 'rxjs';

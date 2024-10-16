@@ -1,6 +1,6 @@
 import { Component, ViewEncapsulation } from '@angular/core';
 import { RouterLink } from '@angular/router';
-import { FuseHighlightComponent } from '@fuse/components/highlight';
+import { FuseHighlightComponent } from '@deltagis/components/highlight';
 
 @Component({
     selector: 'typography',

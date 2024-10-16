@@ -38,6 +38,13 @@ The web version of SUCCESS PRO represents a strategic modernization to enhance s
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli). Below are the instructions to work with this Angular project.
 
+<!-- ### install packages
+
+To install packages, run:.
+
+```bash
+npm i -->
+
 ### Development Server
 
 To start the development server, run:

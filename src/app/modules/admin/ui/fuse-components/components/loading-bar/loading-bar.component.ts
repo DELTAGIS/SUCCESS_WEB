@@ -8,8 +8,8 @@ import {
 } from '@angular/material/slide-toggle';
 import { MatSliderModule } from '@angular/material/slider';
 import { MatTabsModule } from '@angular/material/tabs';
-import { FuseHighlightComponent } from '@fuse/components/highlight';
-import { FuseLoadingService } from '@fuse/services/loading';
+import { FuseHighlightComponent } from '@deltagis/components/highlight';
+import { FuseLoadingService } from '@deltagis/services/loading';
 import { FuseComponentsComponent } from 'app/modules/admin/ui/fuse-components/fuse-components.component';
 import { finalize } from 'rxjs';
 

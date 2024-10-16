@@ -7,7 +7,7 @@ import {
 } from '@angular/core';
 import { MatDrawer, MatSidenavModule } from '@angular/material/sidenav';
 import { RouterOutlet } from '@angular/router';
-import { FuseMediaWatcherService } from '@fuse/services/media-watcher';
+import { FuseMediaWatcherService } from '@deltagis/services/media-watcher';
 import { Subject, takeUntil } from 'rxjs';
 import { MailboxSidebarComponent } from './sidebar/sidebar.component';
 

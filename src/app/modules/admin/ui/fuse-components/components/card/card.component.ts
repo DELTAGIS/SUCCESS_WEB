@@ -2,8 +2,8 @@ import { Component } from '@angular/core';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { MatTabsModule } from '@angular/material/tabs';
-import { FuseCardComponent } from '@fuse/components/card';
-import { FuseHighlightComponent } from '@fuse/components/highlight';
+import { FuseCardComponent } from '@deltagis/components/card';
+import { FuseHighlightComponent } from '@deltagis/components/highlight';
 import { FuseComponentsComponent } from 'app/modules/admin/ui/fuse-components/fuse-components.component';
 
 @Component({

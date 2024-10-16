@@ -2,9 +2,9 @@ import { Component } from '@angular/core';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { MatTabsModule } from '@angular/material/tabs';
-import { FuseAlertComponent } from '@fuse/components/alert';
-import { FuseDrawerComponent, FuseDrawerMode } from '@fuse/components/drawer';
-import { FuseHighlightComponent } from '@fuse/components/highlight';
+import { FuseAlertComponent } from '@deltagis/components/alert';
+import { FuseDrawerComponent, FuseDrawerMode } from '@deltagis/components/drawer';
+import { FuseHighlightComponent } from '@deltagis/components/highlight';
 import { FuseComponentsComponent } from 'app/modules/admin/ui/fuse-components/fuse-components.component';
 
 @Component({

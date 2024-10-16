@@ -4,8 +4,8 @@ import { MatOptionModule } from '@angular/material/core';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatSelectModule } from '@angular/material/select';
 import { MatTabsModule } from '@angular/material/tabs';
-import { fuseAnimations } from '@fuse/animations';
-import { FuseHighlightComponent } from '@fuse/components/highlight';
+import { fuseAnimations } from '@deltagis/animations';
+import { FuseHighlightComponent } from '@deltagis/components/highlight';
 
 @Component({
     selector: 'animations',

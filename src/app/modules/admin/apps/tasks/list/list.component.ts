@@ -30,8 +30,8 @@ import {
 import {
     FuseNavigationService,
     FuseVerticalNavigationComponent,
-} from '@fuse/components/navigation';
-import { FuseMediaWatcherService } from '@fuse/services/media-watcher';
+} from '@deltagis/components/navigation';
+import { FuseMediaWatcherService } from '@deltagis/services/media-watcher';
 import { TasksService } from 'app/modules/admin/apps/tasks/tasks.service';
 import { Tag, Task } from 'app/modules/admin/apps/tasks/tasks.types';
 import { Subject, filter, fromEvent, takeUntil } from 'rxjs';
